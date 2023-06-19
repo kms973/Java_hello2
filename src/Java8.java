@@ -12,6 +12,7 @@ public class Java8 {
 			}
 			System.out.println();
 		}
+		System.out.println("STAR");
 
 	}
 }
