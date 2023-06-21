@@ -1,16 +1,14 @@
 
 public class GetSum {
-	int num;
-	int n;
+	int n, sum;
+	
 
-
-	public void setNum(int n) {
+	void setNum(int n) {
 		this.n = n;
 	}
 
-	public int sum() {
-		int sum = 0;
-		for (int i = 1; i <= n; i++) {
+	int sum() {
+		for (int i = 0; i <= n; i++) {
 			sum += i;
 		}
 		return sum;

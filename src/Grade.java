@@ -2,29 +2,36 @@
 public class Grade {
 	int kor, eng, math;
 	double avg;
-
-	public void setGrade(int a, int b, int c) {
-		this.kor = a;
-		this.eng = b;
-		this.math = c;
+	
+	Grade(){
+		
 	}
-
-	public void getAvg() {
-		avg = ((kor + eng + math) / 3);
-		System.out.println(avg);
+	
+	Grade(int kor, int eng, int math){
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
 	}
-
-	public void getGrade() {
-
-		if (avg >= 90) {
+	
+	double getAvg() {
+		avg = (kor + eng + math) / 3;
+		return avg;
+	}
+	
+	void getGrade() {
+		if(avg >=90) {
 			System.out.println('수');
-		} else if (avg >= 80) {
+		}
+		else if(avg >= 80) {
 			System.out.println('우');
-		} else if (avg >= 70) {
+		}
+		else if(avg>=70) {
 			System.out.println('미');
-		} else if (avg >= 60) {
+		}
+		else if(avg>=60) {
 			System.out.println('양');
-		} else if (avg >= 50) {
+		}
+		else if(avg>=50) {
 			System.out.println('가');
 		}
 	}

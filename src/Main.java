@@ -23,14 +23,24 @@ public class Main {
 //		gugudan.printGugu(10);
 //		gugudan.printGugu(20);
 		
-		Grade grade = new Grade();
-
+		Grade grade = new Grade();//Grade.class를 메모리에 올림.
 		
-		grade.setGrade(90, 90, 20);
+		
+		grade.setGrade(90, 90, 100);
 		grade.getAvg();
 		grade.getGrade();
 		
+		Grade kim = new Grade();
 		
+		kim.setGrade(80, 50, 30);
+		kim.getAvg();
+		kim.getGrade();
+		
+		Grade ppp = new Grade();
+		
+		ppp.setGrade(70, 50, 30);
+		ppp.getAvg();
+		kim.getGrade();
 	}
 
 }
