@@ -5,9 +5,12 @@ public class Recatangle {
 	
 	public Recatangle() {}
 	
-	public double RecatangleArea(double width, double height) {
+	public Recatangle(double width, double height) {
 		this.width = width;
 		this.height = height;
+	}
+	public double RecatangleArea() {
+		
 		
 		return width * height;
 	}

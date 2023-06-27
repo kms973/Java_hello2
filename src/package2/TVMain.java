@@ -1,7 +1,5 @@
 package package2;
 
-import package3.BlockSum;
-
 public class TVMain {
 
 	public static void main(String[] args) {

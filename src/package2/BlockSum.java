@@ -1,4 +1,4 @@
-package package3;
+package package2;
 
 public class BlockSum {
 	private final int n;
